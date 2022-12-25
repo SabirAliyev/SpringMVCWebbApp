@@ -13,8 +13,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08668574-da7c-4c49-aa11-bfe8f94aeb44" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/first/calculator.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sabirali/springcource/controllers/FirstController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sabirali/springcource/controllers/FirstController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/first/hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/first/hello.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +27,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="spring-beans.schema" />
-        <option value="HTML File" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -190,7 +192,7 @@
       <workItem from="1671811645812" duration="1447000" />
       <workItem from="1671864949745" duration="1020000" />
       <workItem from="1671908128659" duration="4550000" />
-      <workItem from="1671943970713" duration="4335000" />
+      <workItem from="1671943970713" duration="7925000" />
     </task>
     <servers />
   </component>
