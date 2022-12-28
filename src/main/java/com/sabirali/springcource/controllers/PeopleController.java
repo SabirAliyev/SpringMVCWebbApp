@@ -31,23 +31,32 @@ public class PeopleController {
     }
 
     @GetMapping("/new")
-    public String newPerson(Model model) {
-        model.addAttribute("person", new Person());
-
+    public String newPerson(@ModelAttribute("person") Person person) {
         return "people/new";
     }
 
-    //// or we can use @ModelAttribute also
-//    @GetMapping("/new")
-//    public String newPerson(@ModelAttribute("person") Person person) {
-//        return "people/new";
-//    }
 
-    @PostMapping
+    @PostMapping()
     public String create(@ModelAttribute("person") Person person) {
         personDAO.save(person);
         return "redirect:/people";
     }
+
+    // Open page to edit person`s fields
+    @GetMapping("/{id}/edit")
+    public String edit(@PathVariable("id") int id, Model model) {
+        // to edit data, we better see what we will edit:
+        model.addAttribute("person", personDAO.show(id));
+        return "people/edit";
+    }
+
+    // by method PATCH from edit form we get object Person to update person`s data by id
+    @PatchMapping("/{id}")
+    public String update(@ModelAttribute("person") Person person, @PathVariable("id") int id) {
+        personDAO.update(id, person);
+        return "redirect:/people";
+    }
+
 }
 
 

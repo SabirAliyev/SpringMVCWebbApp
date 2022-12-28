@@ -13,12 +13,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08668574-da7c-4c49-aa11-bfe8f94aeb44" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/edit.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sabirali/springcource/config/MySpringMvcDispatcherServletInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sabirali/springcource/config/MySpringMvcDispatcherServletInitializer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sabirali/springcource/controllers/PeopleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sabirali/springcource/controllers/PeopleController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sabirali/springcource/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sabirali/springcource/dao/PersonDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sabirali/springcource/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sabirali/springcource/model/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,10 +72,10 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.30414745",
-    "settings.editor.selected.configurable": "preferences.externalResources",
+    "settings.editor.selected.configurable": "MavenSettings",
     "spring.configuration.checksum": "54d1dfd54c8eb366e77d788c7f0f636c",
     "vue.rearranger.settings.migration": "true"
   }
@@ -195,7 +195,9 @@
       <workItem from="1671864949745" duration="1020000" />
       <workItem from="1671908128659" duration="4550000" />
       <workItem from="1671943970713" duration="16347000" />
-      <workItem from="1672024714390" duration="3335000" />
+      <workItem from="1672024714390" duration="9954000" />
+      <workItem from="1672157218808" duration="9443000" />
+      <workItem from="1672249404916" duration="2351000" />
     </task>
     <servers />
   </component>
