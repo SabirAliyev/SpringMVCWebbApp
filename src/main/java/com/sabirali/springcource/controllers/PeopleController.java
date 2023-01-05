@@ -2,9 +2,11 @@ package com.sabirali.springcource.controllers;
 
 import com.sabirali.springcource.dao.PersonDAO;
 import com.sabirali.springcource.model.Person;
+import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 
 @Controller
@@ -35,9 +37,15 @@ public class PeopleController {
         return "people/new";
     }
 
-
+    // Object bindingResult contains all validation errors. If a field has errors - return to creation page.
+    // In the method signature this parameter must be after object parameter it's validates.
+    // We also add attribute @Valid to update() method to check updating fields.
     @PostMapping()
-    public String create(@ModelAttribute("person") Person person) {
+    public String create(@ModelAttribute("person") @Valid Person person,
+                         BindingResult bindingResult) {
+        if (bindingResult.hasErrors())
+            return "people/new";
+
         personDAO.save(person);
         return "redirect:/people";
     }
@@ -50,9 +58,13 @@ public class PeopleController {
         return "people/edit";
     }
 
-    // by method PATCH from edit form we get object Person to update person`s data by id
+    // By method PATCH from edit form we get object Person to update person`s data by id
     @PatchMapping("/{id}")
-    public String update(@ModelAttribute("person") Person person, @PathVariable("id") int id) {
+    public String update(@ModelAttribute("person") @Valid Person person,
+                         BindingResult bindingResult, @PathVariable("id") int id) {
+        if (bindingResult.hasErrors())
+            return "people/edit";
+
         personDAO.update(id, person);
         return "redirect:/people";
     }
