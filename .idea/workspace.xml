@@ -13,14 +13,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08668574-da7c-4c49-aa11-bfe8f94aeb44" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sabirali/springcource/dao/PersonMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database.properties.origin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/fbefbdc9-c281-45f5-a81a-d0cf99ceb9a2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/fbefbdc9-c281-45f5-a81a-d0cf99ceb9a2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/fbefbdc9-c281-45f5-a81a-d0cf99ceb9a2/storage_v2/_src_/database/first_db.bWA53w/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/fbefbdc9-c281-45f5-a81a-d0cf99ceb9a2/storage_v2/_src_/database/first_db.bWA53w/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sabirali/springcource/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sabirali/springcource/config/SpringConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sabirali/springcource/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sabirali/springcource/dao/PersonDAO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +73,7 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Global Libraries&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.30414745&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
@@ -212,6 +210,8 @@
       <workItem from="1673259831660" duration="141000" />
       <workItem from="1673953335266" duration="3971000" />
       <workItem from="1673958002388" duration="807000" />
+      <workItem from="1673976013018" duration="5344000" />
+      <workItem from="1674012175510" duration="937000" />
     </task>
     <servers />
   </component>
