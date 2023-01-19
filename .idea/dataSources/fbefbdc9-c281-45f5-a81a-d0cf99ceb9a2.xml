@@ -3,15 +3,7 @@
   <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.45">
     <root id="1">
       <DateStyle>mdy</DateStyle>
-      <Grants>1||-9223372036854775808|c|G
-1||10|c|G
-1||10|C|G
-1||10|T|G
-13756||-9223372036854775808|c|G
-13756||10|c|G
-13756||10|C|G
-13756||10|T|G</Grants>
-      <IntrospectionStateNumber>779</IntrospectionStateNumber>
+      <IntrospectionStateNumber>2799</IntrospectionStateNumber>
       <ServerVersion>14.5</ServerVersion>
       <StartupTime>1674012482</StartupTime>
       <TimeZones>true ACDT
@@ -1403,7 +1395,7 @@ false posixrules
 13391||10|C|G
 13391||-9223372036854775808|U|G
 13391||10|U|G</Grants>
-      <IntrospectionStateNumber>779</IntrospectionStateNumber>
+      <IntrospectionStateNumber>2799</IntrospectionStateNumber>
       <ObjectId>16384</ObjectId>
       <OwnerName>postgres</OwnerName>
     </database>
@@ -4844,7 +4836,7 @@ false posixrules
     <schema id="262" parent="2" name="public">
       <Comment>standard public schema</Comment>
       <Current>1</Current>
-      <IntrospectionStateNumber>779</IntrospectionStateNumber>
+      <IntrospectionStateNumber>2799</IntrospectionStateNumber>
       <ObjectId>2200</ObjectId>
       <StateNumber>527</StateNumber>
       <OwnerName>postgres</OwnerName>
@@ -8219,35 +8211,84 @@ false posixrules
       <StateNumber>527</StateNumber>
       <OwnerName>postgres</OwnerName>
     </schema>
-    <table id="508" parent="262" name="person">
-      <ObjectId>16390</ObjectId>
-      <StateNumber>747</StateNumber>
+    <sequence id="508" parent="262" name="person_id_seq">
+      <DasType>integer|0s</DasType>
+      <ObjectId>16401</ObjectId>
+      <StateNumber>2798</StateNumber>
+      <OwnerName>postgres</OwnerName>
+    </sequence>
+    <table id="509" parent="262" name="person">
+      <ObjectId>16402</ObjectId>
+      <StateNumber>2798</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>postgres</OwnerName>
     </table>
-    <column id="509" parent="508" name="id">
+    <check id="510" parent="509" name="person_age_check">
+      <ColNames>age</ColNames>
+      <ObjectId>16405</ObjectId>
+      <Predicate>age &gt; 0</Predicate>
+      <StateNumber>2798</StateNumber>
+    </check>
+    <column id="511" parent="509" name="id">
       <DasType>integer|0s</DasType>
+      <IdentityKind>by-default</IdentityKind>
+      <NotNull>1</NotNull>
       <Position>1</Position>
-      <StateNumber>747</StateNumber>
+      <StateNumber>2798</StateNumber>
+      <SequenceId>16401</SequenceId>
       <TypeId>23</TypeId>
     </column>
-    <column id="510" parent="508" name="name">
+    <column id="512" parent="509" name="name">
       <DasType>varchar|0s</DasType>
+      <NotNull>1</NotNull>
       <Position>2</Position>
-      <StateNumber>747</StateNumber>
+      <StateNumber>2798</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="511" parent="508" name="age">
+    <column id="513" parent="509" name="age">
       <DasType>integer|0s</DasType>
       <Position>3</Position>
-      <StateNumber>747</StateNumber>
+      <StateNumber>2798</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="512" parent="508" name="email">
+    <column id="514" parent="509" name="email">
       <DasType>varchar|0s</DasType>
       <Position>4</Position>
-      <StateNumber>747</StateNumber>
+      <StateNumber>2798</StateNumber>
       <TypeId>1043</TypeId>
     </column>
+    <index id="515" parent="509" name="person_pkey">
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>16408</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>2798</StateNumber>
+      <Unique>1</Unique>
+      <AccessMethodId>403</AccessMethodId>
+    </index>
+    <index id="516" parent="509" name="person_email_key">
+      <ColNames>email</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>16410</ObjectId>
+      <StateNumber>2798</StateNumber>
+      <Unique>1</Unique>
+      <AccessMethodId>403</AccessMethodId>
+      <CollationNames>default</CollationNames>
+      <CollationIds>100</CollationIds>
+      <CollationParentNames>pg_catalog</CollationParentNames>
+    </index>
+    <key id="517" parent="509" name="person_pkey">
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>16409</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>2798</StateNumber>
+      <UnderlyingIndexId>16408</UnderlyingIndexId>
+    </key>
+    <key id="518" parent="509" name="person_email_key">
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>16411</ObjectId>
+      <StateNumber>2798</StateNumber>
+      <UnderlyingIndexId>16410</UnderlyingIndexId>
+    </key>
   </database-model>
 </dataSource>

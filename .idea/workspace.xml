@@ -13,8 +13,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08668574-da7c-4c49-aa11-bfe8f94aeb44" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sabirali/springcource/controllers/BatchController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/batch/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fbefbdc9-c281-45f5-a81a-d0cf99ceb9a2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/fbefbdc9-c281-45f5-a81a-d0cf99ceb9a2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fbefbdc9-c281-45f5-a81a-d0cf99ceb9a2/storage_v2/_src_/database/first_db.bWA53w/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/fbefbdc9-c281-45f5-a81a-d0cf99ceb9a2/storage_v2/_src_/database/first_db.bWA53w/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sabirali/springcource/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sabirali/springcource/dao/PersonDAO.java" afterDir="false" />
     </list>
@@ -213,7 +213,7 @@
       <workItem from="1673953335266" duration="3971000" />
       <workItem from="1673958002388" duration="807000" />
       <workItem from="1673976013018" duration="5344000" />
-      <workItem from="1674012175510" duration="3951000" />
+      <workItem from="1674012175510" duration="6849000" />
     </task>
     <servers />
   </component>
