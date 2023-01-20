@@ -13,9 +13,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08668574-da7c-4c49-aa11-bfe8f94aeb44" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sabirali/springcource/util/PersonValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/fbefbdc9-c281-45f5-a81a-d0cf99ceb9a2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/fbefbdc9-c281-45f5-a81a-d0cf99ceb9a2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/fbefbdc9-c281-45f5-a81a-d0cf99ceb9a2/storage_v2/_src_/database/first_db.bWA53w/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/fbefbdc9-c281-45f5-a81a-d0cf99ceb9a2/storage_v2/_src_/database/first_db.bWA53w/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sabirali/springcource/controllers/PeopleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sabirali/springcource/controllers/PeopleController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sabirali/springcource/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sabirali/springcource/dao/PersonDAO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +78,7 @@
     "project.structure.last.edited": "Global Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.30414745",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "settings.editor.selected.configurable": "editor.preferences.tabs",
     "spring.configuration.checksum": "54d1dfd54c8eb366e77d788c7f0f636c",
     "vue.rearranger.settings.migration": "true"
   },
@@ -214,6 +217,8 @@
       <workItem from="1673958002388" duration="807000" />
       <workItem from="1673976013018" duration="5344000" />
       <workItem from="1674012175510" duration="6849000" />
+      <workItem from="1674189131551" duration="1728000" />
+      <workItem from="1674191566028" duration="7291000" />
     </task>
     <servers />
   </component>
